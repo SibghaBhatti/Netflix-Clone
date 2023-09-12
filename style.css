@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+img {
+  display: block;
+  width: 100%;
+}
+body {
+  background-color: rgb(52, 51, 51);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/images/ok.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  margin-bottom: 10px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top .button {
+  margin-right: 90px;
+  cursor: pointer;
+}
+.top .button button {
+  width: 90px;
+  height: 35px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: red;
+  color: white;
+}
+.middle {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.middle > div {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: "Lora", serif;
+  font-family: "Merriweather", serif;
+}
+.middle .para {
+  font-size: x-large;
+  font-weight: bolder;
+}
+.inputButton input {
+  width: 500px;
+  height: 30px;
+  font-size: small;
+  border-style: none;
+  font-family: "Lora", serif;
+  cursor: pointer;
+  padding: 21px;
+}
+.inputButton button {
+  width: 140px;
+  padding: 14px;
+  background-color: red;
+  border-style: none;
+  color: white;
+  cursor: pointer;
+}
+.section .pictures img {
+  width: 500px;
+  height: 500px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.section {
+  display: grid;
+  grid-template-columns: repeat(2, 45%);
+  padding: 60px;
+  justify-content: center;
+  gap: 90px;
+  align-items: center;
+  background-color: black;
+  margin-bottom: 10px;
+}
+.watchsection {
+  padding: 120px;
+  background-color: black;
+  margin-bottom: 10px;
+}
+.faq {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 90px;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: black;
+}
+.faq .questions ul li {
+  display: flex;
+  justify-content: space-between;
+  line-height: 50px;
+  gap: 450px;
+  align-items: center;
+  padding: 12px;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  margin: 9px;
+  background-color: rgb(45, 45, 45);
+}
+.faq .questions ul li:hover {
+  background-color: rgb(65, 65, 65);
+  cursor: pointer;
+}
+.getstarted {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.data {
+  display: flex;
+  gap: 5px;
+  width: 600px;
+}
+.data input {
+  padding: 15px;
+  width: 400px;
+  padding: 2px;
+  cursor: pointer;
+  font-size: 15px;
+  background-color: rgb(15, 15, 15);
+  border: 1px solid white;
+}
+.data button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+  padding: 15px;
+  font-size: 25px;
+  background-color: red;
+  color: white;
+  border: none;
+}
+.data button:hover {
+  background-color: rgb(203, 15, 24);
+  cursor: pointer;
+}
+.footer {
+  background-color: black;
+  padding: 30px;
+}
+.footersection {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 50px;
+  font-size: 14px;
+  padding: 20px;
+  color: rgb(179, 179, 179);
+}
+.footersection p {
+  margin-left: 120px;
+  text-decoration: underline;
+}
+.footersection p :hover {
+  cursor: pointer;
+}
+
+.footerinfo {
+  display: grid;
+  grid-template-columns: repeat(3, 24%);
+  justify-content: center;
+  gap: 80px;
+  padding: 30px 80px;
+  background-color: rgb(0, 0, 0);
+  line-height: 35px;
+  color: white;
+  color: rgb(179, 179, 179);
+  text-decoration: underline;
+}
+
+.footer ul li:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+.copyright {
+  margin-left: 180px;
+  font-size: 14px;
+  color: rgb(136, 136, 136);
+}
+.footer button {
+  background-color: rgb(15, 15, 15);
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  width: 120px;
+  border: 0.1px solid white;
+  border-radius: 4px;
+  margin-left: 180px;
+  padding: 6px;
+}
+.footer select {
+  background-color: rgb(15, 15, 15);
+  color: white;
+  border: none;
+}
+.footer option {
+  padding: 10px;
+}
+.footer button .material-symbols-outlined {
+  color: white;
+}
