@@ -29,13 +29,24 @@
     />
   </head>
   <body>
+    <script src="script.js"></script>
+    <div id="formC" class="formContainer">
+      <h1>Sign Up</h1>
+      <input type="email" placeholder="Enter Your Email:" /> <br />
+      <input
+        type="password"
+        name="password"
+        placeholder="Enter your Password"
+      />
+      <button type="submit">Sign In</button>
+    </div>
     <div class="header">
       <div class="top">
         <div class="logo">
           <img src="/images/logo-removebg-preview.png" alt="" />
         </div>
         <div class="button">
-          <button>Sign In</button>
+          <button onclick="activeFormContainer()">Sign In</button>
         </div>
       </div>
       <div class="middle">
@@ -51,7 +62,7 @@
             </p>
           </div>
           <div class="inputButton">
-            <input type="text" placeholder="Email Address" />
+            <input type="email" placeholder="Email Address" />
             <button>Get Started</button>
           </div>
         </div>
@@ -110,7 +121,7 @@
         </h3>
       </div>
     </div>
-    <!------------faqs----------------------------------------------------------------->
+    <!-------------------------------------------------------------------------->
     <div class="faq">
       <h1>Frequently Asked Questions</h1>
       <div class="questions">
