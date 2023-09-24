@@ -14,7 +14,45 @@ body {
   color: white;
   font-family: "Poppins", sans-serif;
 }
-
+.formContainer {
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-image: url("./images/signup\ img.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 40%;
+  height: 50vh;
+  gap: 5px;
+  visibility: hidden;
+}
+.formContainer input {
+  width: 300px;
+  height: 30px;
+  padding: 15px;
+  border-style: none;
+}
+.formContainer h1 {
+  color: white;
+}
+.formContainer button {
+  width: 100px;
+  height: 40px;
+  background-color: red;
+  color: white;
+  border: none;
+}
+.formContainer.activeContainer {
+  visibility: visible;
+}
 .header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("/images/ok.jpg");
@@ -125,6 +163,9 @@ body {
 .faq .questions ul li:hover {
   background-color: rgb(65, 65, 65);
   cursor: pointer;
+}
+.faq .getstarted .data input {
+  color: white;
 }
 .getstarted {
   display: flex;
